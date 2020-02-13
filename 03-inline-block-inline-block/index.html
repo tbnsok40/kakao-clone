@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inline Example</title>
+    <style>
+      .box {
+        background-color: red;
+        width:200px;
+        height:200px;
+        border: 2px solid black;
+        display: Inline-block;
+      }
+<!-- 박스는 인라인 블록이나 블록이 되어야한다. 인라인 블락을 없애면 , 박스는 디폴트에 의해 세로로 정렬된다. -->
+/* 블록은 그 옆에 아무것도 없는 것이고, 인라인 블록은 서로서로 옆에 붙는것 */
+    </style>
+
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <!-- <span class = 'box'>1</span>
+    <span class = 'box'>1</span>
+    <span class = 'box'>1</span> -->
+    <!-- span으로 작성하면 내가 작성한 컨텐츠의 폭, 높이만큼의 스타일만 적용. 이전에 작성한 박스의 폭,높이는 적용x
+  왜냐면 display: Inline으로 작성됐기에, 박스가 아닌 텍스트로 적용됌-->
+  </body>
+</html>

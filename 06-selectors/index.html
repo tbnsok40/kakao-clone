@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+    input[type='submit']{
+      background-color:red;
+
+    }
+    /* input[type='password']{
+      background-color:blue;
+    } */
+    input{
+      border:1px solid yellow;
+    }
+    .box{
+    background-color: green;
+    display: block;
+    border:1px solid black;
+    height:100px;
+    }
+
+    .box:nth-child(2n){
+      background-color: pink;
+    }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box">
+        <input type="password">
+        <input type="submit" class='submit'>
+
+      </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    </div>
+    </body>
+</html>
