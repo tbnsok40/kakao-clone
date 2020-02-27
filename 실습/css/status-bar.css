@@ -1,0 +1,14 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  /* 이걸 해주면 촘촘히 모여있던 녀석들을 다 떨어뜨려놓는다 */
+  margin-bottom: 30px;
+  opacity: 0.7;
+}
+
+.status-bar i {
+  font-size: 14px;
+}
+.status-bar .status-bar__battery-lever {
+  margin-left: 5px;
+}
