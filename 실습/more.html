@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/703c3b8202.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>More | kakao clone</title>
-  </head>
-  <body>
-    <div class="status-bar">
-      <div class="status-bars__column">
-        <span class="status-bar__clock">13:56</span>
-      </div>
 
-      <div class="status-bars__column">
-        <i class="far fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/703c3b8202.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>More | kakao clone</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bars__column">
+      <span class="status-bar__clock">13:56</span>
     </div>
 
-    <header class="header">
-      <div class="header__header-column">
-        <h1 class="header__title">More</h1>
-      </div>
+    <div class="status-bars__column">
+      <i class="far fa-clock"></i>
+      <i class="fas fa-volume-mute"></i>
+      <i class="fas fa-wifi"></i>
+      <span class="status-bar__battery-level">100%</span>
+      <i class="fas fa-battery-full"></i>
+    </div>
+  </div>
 
-      <div class="header__header-column">
-        <span class="header__icon"><i class="fas fa-search"></i></span>
-        <span class="header__icon"><i class="fas fa-qrcode"></i></span>
-        <span class="header__icon">
-          <a href="settings.html">
-            <i class="fas fa-cog"></i>
-          </a>
-        </span>
-      </div>
-    </header>
-    <main class="more">
-      <div class="friends">
+  <header class="header">
+    <div class="header__header-column">
+      <h1 class="header__title">More</h1>
+    </div>
+
+    <div class="header__header-column">
+      <span class="header__icon"><i class="fas fa-search"></i></span>
+      <span class="header__icon"><i class="fas fa-qrcode"></i></span>
+      <span class="header__icon">
+        <a href="settings.html">
+          <i class="fas fa-cog"></i>
+        </a>
+      </span>
+    </div>
+  </header>
+  <main class="more">
+    <div class="friends">
       <header class="more__header">
         <div class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="C:/images.jpg" alt="" class="g-avatar friend__avatar" />
+            <img
+              src="data:image/png;base64,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"
+              alt="" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-                LIM
+                React
               </span>
               <span class="freind__status">
-                tbnsok40@gmail.com
+                You are next
               </span>
             </div>
           </div>
@@ -59,78 +60,65 @@
             <i class="far fa-comment-alt fa-2x"></i>
           </div>
         </div>
-      </div>
-        <ul class="more__btn-list">
-          <li class="more__btn">
-            <span class="more__btn-icon">
-              <i class="far fa-smile fa-2x"></i>
-            </span>
-            <span class="more__btn-title">Emoticons</span>
-          </li>
-          <li class="more__btn">
-            <span class="more__btn-icon">
-              <i class="fas fa-brush fa-2x"></i>
-            </span>
-            <span class="more__btn-title">Themes</span>
-          </li>
-          <li class="more__btn">
-            <span class="more__btn-icon">
-              <i class="fab fa-kickstarter-k fa-2x"></i>
-            </span>
-            <span class="more__btn-title">Accounts</span>
-          </li>
-        </ul>
       </header>
-      <sec class="more__suggestions">
-        <h5 class="more__title">more__suggestions</h5>
-        <ul class="more__suggestions-list">
-          <li class="more__suggestion suggestion">
-            <span class="suggestion__icon">
-              <i class="fas fa-quote-right fa-2x"></i>
-            </span>
-            <span class="suggestion__title">Kakao Story</span>
-          </li>
+    </div>
+    <h5 class="more__title">More Suggestions</h5>
 
-          <li class="more__suggestion suggestion">
-            <span class="suggestion__icon">
-              <i class="fas fa-beer fa-2x"></i>
-            </span>
-            <span class="suggestion__title">Kakao Friends</span>
-          </li>
+    <ul class="more__btn-list">
 
-          <li class="more__suggestion suggestion">
-            <span class="suggestion__icon">
-              <i class="fas fa-gamepad fa-2x"></i>
-            </span>
-            <span class="suggestion__title">Friends Gem</span>
-          </li>
-        </ul>
-      </sec>
-    </main>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__list-item">
-          <a href="friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="index.html" class="nav__list-link">
-            <div class="nav__badge">8</div>
-            <i class="fas fa-comment"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="find.html" class="nav__list-link">
-            <i class="fas fa-search"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="more.html" class="nav__list-link">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </body>
+      <li class="more__btn">
+        <span class="more__btn-icon">
+          <i class="far fa-smile fa-2x"></i>
+        </span>
+        <span class="more__btn-title">Emoticons</span>
+      </li>
+      <li class="more__btn">
+        <span class="more__btn-icon">
+          <i class="fas fa-brush fa-2x"></i>
+        </span>
+        <span class="more__btn-title">Themes</span>
+      </li>
+      <li class="more__btn">
+        <span class="more__btn-icon">
+          <i class="fab fa-kickstarter-k fa-2x"></i>
+        </span>
+        <span class="more__btn-title">Accounts</span>
+      </li>
+      <li class="more__btn">
+        <span class="more__btn-icon">
+          <i class="fas fa-quote-right fa-2x"></i>
+        </span>
+        <span class="more__btn-title">Kakao Story</span>
+      </li>
+    </ul>
+    <!-- </header> -->
+
+  </main>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__list-item">
+        <a href="friends.html" class="nav__list-link">
+          <i class="far fa-user"></i>
+        </a>
+      </li>
+      <li class="nav__list-item">
+        <a href="index.html" class="nav__list-link">
+          <div class="nav__badge">8</div>
+          <i class="fas fa-comment"></i>
+        </a>
+      </li>
+      <li class="nav__list-item">
+        <a href="find.html" class="nav__list-link">
+          <i class="fas fa-search"></i>
+        </a>
+      </li>
+      <li class="nav__list-item">
+        <a href="more.html" class="nav__list-link">
+          <i class="fas fa-ellipsis-h"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</body>
+
 </html>
