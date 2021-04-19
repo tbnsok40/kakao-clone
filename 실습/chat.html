@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | kakao clone</title>
   </head>
-  <body>
+
+  <body class="chats__body">
     <div class="status-bar">
       <div class="status-bars__column">
-        <span class="status-bar__clock">13:56</span>
+        <span class="status-bar__clock">12:11</span>
       </div>
 
       <div class="status-bars__column">
@@ -27,13 +28,10 @@
 
     <header class="header">
       <div class="header__header-column">
-        
-          <a href="index.html" class="header__back-btn">
-            <i class="fas fa-arrow-left fa"></i>
-          </a>
-
-          <h1 class="header__title">Best Freind</h1>
-        </div>
+        <a href="index.html" class="header__back-btn">
+          <i class="fas fa-arrow-left fa"></i>
+        </a>
+        <h1 class="header__title">@vodof</h1>
       </div>
 
       <div class="header__header-column">
@@ -41,54 +39,70 @@
           <i class="fas fa-search"></i>
         </span>
         <span class="header__icon">
-            <i class="fas fa-bars"></i>
+          <i class="fas fa-bars"></i>
         </span>
       </div>
     </header>
-    <main class="chat">
-        <ul class="chat__messages">
-        <span class="chat__timestamp">Friday, January 11, 2020</span>
-        <li class="incoming-messgae message">
-            <img src="C:/imgaes.jpg" class='g-avatar message'>
-            <div class="message__content">
-                <span class="message__author">Best Friend</span>
-                <div class="message_bubble">
-                    congrats i Love u!
-                </div>
-            </div>
-            <span class="message__timestamp">
+    <main class="chat-screen">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">Friday, December 10, 2019</span>
 
+        <li class="outcoming-message message">
+          <span class="message__timestamp"> </span>
+          <div class="message__content">
+            <span class="message_bubble"> you ready? </span>
+            <!-- 이게 span이 아니고 div여서 말풍선의 여백이 길게 남아있었다-->
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="C:/은수.jpg" class="g-avatar message" />
+          <div class="message__content">
+            <span class="message_bubble">
+              yess how bout u?
             </span>
+            <span class="message__author">@vodof</span>
+          </div>
         </li>
 
-        <li class="incoming-messgae message">
-            <span class="message__timestamp">
-        
-            <div class="message__content">
-                <div class="message_bubble">
-     Thankyou!
-                </div>
-            </div>
-        </span>
-           </li>
-    </ul>
-</main>
-<div class="chat__write">
-    <div class="chat__write-columns">
+        <li class="outcoming-message message">
+          <span class="message__timestamp"> </span>
+          <div class="message__content">
+            <span class="message_bubble">
+              perfect see you soon
+            </span>
+            <!-- 이게 span이 아니고 div여서 말풍선의 여백이 길게 남아있었다-->
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="C:/은수.jpg" class="g-avatar message" />
+          <div class="message__content">
+            <span class="message_bubble">
+              see you!
+            </span>
+            <span class="message__author">@vodof</span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write">
+      <div class="chat__write-columns">
         <i class="far fa-plus-square"></i>
-    </div>
-    <div class="chat__write-columns">
-        <input type="text" placeholder="Send message" class='chat__write-input'/>
-    </div>
-    <div class="chat__write-columns">
+      </div>
+      <div class="chat__write-columns">
+        <input
+          type="text"
+          placeholder="Send message"
+          class="chat__write-input"
+        />
+      </div>
+      <div class="chat__write-columns">
         <span class="chat__write-icon">
-            <i class="far fa-smile-wink"></i>
+          <i class="far fa-smile-wink"></i>
         </span>
         <span class="chat__write-icon">
-            <i class="fas fa-microphone"></i>
+          <i class="fas fa-microphone"></i>
         </span>
+      </div>
     </div>
-</div>
-
   </body>
 </html>

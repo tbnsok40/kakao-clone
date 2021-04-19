@@ -4,16 +4,16 @@
   align-items: center;
 }
 .friends .friend__avatar {
-  width: 50px;
-  border-radius: 38%;
+  width: 60px;
+  border-radius: 50%;
 }
 .friend__avatar.g-avatar {
   width: 70px;
-  border-radius: 38%;
+  border-radius: 50%;
 }
 .friend__avatar.m-avatar {
-  width: 60px;
-  border-radius: 38%;
+  width: 70px;
+  border-radius: 50%;
 }
 
 .friends .friend__column {
@@ -39,4 +39,21 @@
 .friend__column .chat__timestamp {
   font-size: 12px;
   opacity: 0.7;
+}
+
+.friends .friend,
+.friends .friend__plus {
+  margin-bottom: 14px;
+}
+
+.friends__plus-title,
+.friends__title {
+  margin-bottom: 13px;
+}
+
+.friend__now-listening {
+  font-size: 12px;
+  border: 1.5px solid rgb(100, 194, 88);
+  border-radius: 15px;
+  padding: 4px 10px;
 }

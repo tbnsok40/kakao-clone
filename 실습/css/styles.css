@@ -1,11 +1,12 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto&display=swap");
+@import "find.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700|Roboto&display=swap");
 @import "status-bar.css";
-@import "nav-bar.css";
+@import "chat.css";
 @import "friend.css";
-
+@import "nav-bar.css";
 * {
   box-sizing: border-box;
 }
@@ -20,7 +21,7 @@ a {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(255, 255, 249);
 
   font-family: "Open Sans";
   color: #020202;
